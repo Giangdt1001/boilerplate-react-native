@@ -5,7 +5,7 @@ import { StyleSheet } from 'react-native'
  * @param Theme can be spread like {Colors, NavigationColors, Gutters, Layout, Common, ...args}
  * @return {*}
  */
-export default function () {
+export default function ({ SizeIcon }) {
   return StyleSheet.create({
     /* Column Layouts */
     column: {
@@ -105,5 +105,13 @@ export default function () {
     rotate90Inverse: {
       transform: [{ rotate: '-90deg' }],
     },
+    sizeIconRegular: {
+      width: SizeIcon.regular,
+      height: SizeIcon.regular,
+    },
+    sizeIconSmall: {
+      width: SizeIcon.small,
+      height: SizeIcon.small,
+    }
   })
 }

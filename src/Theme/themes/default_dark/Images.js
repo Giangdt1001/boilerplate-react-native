@@ -4,9 +4,6 @@
 
 export default function () {
   return {
-    logo: {
-      uri:
-        'https://thecodingmachine.github.io/react-native-myapp/img/TOM-small.png',
-    },
+
   }
 }
